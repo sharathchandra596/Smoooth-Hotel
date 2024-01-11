@@ -1,0 +1,79 @@
+
+/* #7D6EAF-- nav
+#494454--text
+#AEA9BA -- test */
+
+
+
+.navbar_custom{
+    height: 91px;
+    background-color: #7D6EAF !important;
+    /* font-weight: bold; */
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    height: 80px;
+    
+
+}
+.banner{
+    background-image: url(./img/banner.jpg);
+    height: 80vh;
+    background-size: 100vh;
+    background-size: cover;
+   
+    
+}
+.banner-head
+{
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner-caption{
+    color: #f5f7fa;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.custombtn{
+    color: white;
+  background-color: #7D6EAF;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+  /* display: inline !important; */
+
+}
+
+.custombtn-outline{
+    color: #7D6EAF;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7D6EAF;
+  border-radius: 8px;
+  
+}
+
+
+.expert-card{
+    text-align: center;
+    border: 1px solid #e5eaf4;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.expert-card-para
+{
+    color:  #7b8794;
+    font-size: 20px;
+}
+.expert-card-img{
+    height: 300px !important;
+}
