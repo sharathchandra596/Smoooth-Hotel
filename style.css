@@ -75,5 +75,26 @@
     font-size: 20px;
 }
 .expert-card-img{
-    height: 300px !important;
+    height: 200px !important;
+}
+.menu_heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+
+.menu_item_img{
+ border-radius: 17px;
+ height: 200px;
+
+}
+
+.menu_item_link{
+    text-decoration: none;
+    color: #7D6EAF;
+}
+.menu_card{
+    border: 1px solid #e5eaf4;
+    border-radius: 17px;
+    /* margin-right: 0.5px; */
 }
