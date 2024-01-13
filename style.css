@@ -3,7 +3,9 @@
 #494454--text
 #AEA9BA -- test */
 
-
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .navbar_custom{
     height: 91px;
