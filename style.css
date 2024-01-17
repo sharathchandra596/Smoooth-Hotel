@@ -75,6 +75,7 @@
 {
     color:  #7b8794;
     font-size: 20px;
+    /* overflow:scroll !important */
 }
 .expert-card-img{
     height: 200px !important;
@@ -99,4 +100,37 @@
     border: 1px solid #e5eaf4;
     border-radius: 17px;
     /* margin-right: 0.5px; */
+}
+.Healthy{
+    border: 1px solid #e5eaf4;
+    border-radius: 25px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+
+}
+
+.follow_us{
+    border: 1px solid #e5eaf4;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #AEA9BA;
+    /* margin-bottom: 20px; */
+
+}
+#icon-1:hover
+{
+    height: 70px;
+    width: 70px;
+}
+#icon-2:hover
+{
+    height: 70px;
+    width: 70px;
+}
+#icon-3:hover
+{
+    height: 70px;
+    width: 70px;
 }
