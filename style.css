@@ -139,3 +139,8 @@
     height: 50px;
     margin-right: 28px;
   }
+
+  .viedoBTN{
+    text-decoration: none;
+    color: white;
+  }
