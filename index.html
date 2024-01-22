@@ -11,12 +11,13 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar_custom text-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar_custom text-white fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="img\smoooth-high-resolution-logo-black.png" alt="" class="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -25,10 +26,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto ">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Expertise On</a>
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+          <a class="nav-link" href="#expertise">expertise</a>
+          <a class="nav-link" href="#Menu">Menu</a>
+          <a class="nav-link" href="#delivery">delivery</a>
+          <a class="nav-link" href="#Follow_Us">Follow Us</a>
           <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
         </div>
       </div>
@@ -36,7 +38,7 @@
   </nav>
 
   <!-- banner sections -->
-  <div class="banner d-flex flex-column justify-content-center ">
+  <div class="banner d-flex flex-column justify-content-center" id="Home">
     <h1 class="banner-head ps-5">Get Delicious Food Anytime</h1>
     <p class="banner-caption ps-5">Eat Smart & Healthy</p>
 
@@ -46,7 +48,7 @@
     </div>
   </div>
   <!-- expertise Section -->
-  <div>
+  <div id="expertise">
 
     <div class="ms-5" id="expertise-heading-div">
       <h1 class="expertise-heading ">We have expertise in ?</h1>
@@ -92,7 +94,7 @@
     </div>
   </div>
   <!-- **************************** Menu Section ************************* -->
-  <div class="menu_heading ms-5 mt-3">
+  <div class="menu_heading ms-5 mt-3" id="Menu">
     <h1>Check Out the menu Menu!</h1>
   </div>
   <div class="container">
@@ -212,7 +214,7 @@
     </div>
   </div>
   <!-- delivery-and-payment-section -->
-  <div class="delivery-and-payment-section pt-5 pb-5">
+  <div class="delivery-and-payment-section pt-5 pb-5" id="delivery">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-5 order-1 order-md-2">
@@ -236,6 +238,30 @@
             online.
           </p>
           <button class="custombtn">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--****************************** Follow as Section ***************************** -->
+  <div class="follow-us-section pt-5 pb-5" id="Follow_Us">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="follow-us-section-heading">Follow Us</h1>
+        </div>
+        <div class="col-12">
+          <div class="d-flex flex-row justify-content-center">
+            <div class="follow-us-icon-container">
+              <i class="fab fa-twitter icon"></i>
+            </div>
+            <div class="follow-us-icon-container">
+              <i class="fab fa-instagram icon"></i>
+            </div>
+            <div class="follow-us-icon-container">
+              <i class="fab fa-facebook icon"></i>
+            </div>
+          </div>
         </div>
       </div>
     </div>
